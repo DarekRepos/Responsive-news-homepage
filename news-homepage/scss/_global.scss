@@ -1,9 +1,16 @@
-:root{
+@use 'utils' as u;
+
+:root {
     --c-white: #FFFDFA;
     --c-blue: #00001A;
-    --c-gray:hsl(236, 13%, 42%);
+    --c-gray: hsl(236, 13%, 42%);
     --c-red: #F15D51;
     --c-silver: #C5C6CE;
     --c-yellow: #E9AA52;
-    
+    --f-xl: clamp(u.rem(40), 2.147887323943662rem + 1.5023474178403755vw, u.rem(56));
+    --f-l: clamp(u.rem(32), 1.823943661971831rem + 0.7511737089201878vw, u.rem(40));
+    --f-m:u.rem(32)
+    --f-s: u.rem(20)
+    --f-xs: u.rem(18)
+    --f-body: u.rem(15)
 }

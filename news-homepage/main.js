@@ -1,5 +1,6 @@
 import './scss/style.scss'
 
+const body = document.querySelector('body');
 const btnOpen = document.querySelector('#btnOpen');
 const btnClose = document.querySelector('#btnClose');
 const media = window.matchMedia('(width < 69.375em');
@@ -9,9 +10,11 @@ const navOverlay = document.querySelector('.nav__overlay');
 
 function openMobileMenu() {
     btnOpen.setAttribute('aria-expanded', 'true');
+    body.classList.add('noscroll')
 }
 function closeMobileMenu() {
     btnClose.setAttribute('aria-expanded', 'false');
+    body.classList.remove('noscroll')
 }
 
 

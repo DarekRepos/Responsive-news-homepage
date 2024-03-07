@@ -13,7 +13,7 @@
     &__title {
         color: var(--c-yellow);
         font-size: clamp(u.rem(32), 1.823943661971831rem + 0.7511737089201878vw, u.rem(40));
-
+       
     }
 
     &__post {
@@ -31,6 +31,9 @@
         font-weight: 800;
         margin-block-end: u.rem(8);
         color: var(--c-white);
+        &:hover{
+            color: var(--c-yellow);
+        }
     }
 
     &__description {

@@ -37,6 +37,9 @@
             line-height: 1.1;
             font-style: var(--f-xs);
         }
+        &:hover{
+            color: var(--c-red);
+        }
     }
 
     &__description {

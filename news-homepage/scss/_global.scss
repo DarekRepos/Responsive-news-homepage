@@ -1,4 +1,7 @@
 @use 'utils' as u;
+@use 'mixin' as r;
+
+
 
 :root {
     --c-white: #FFFDFA;
@@ -15,40 +18,23 @@
     --f-body: #{u.rem(15)};
 }
 
-
-html {
-    font-size: 100%;
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
 body {
     margin: 0;
-    min-height: 100vh;
     font-family: 'Inter', sans-serif;
     font-size: var(--f-body);
-    line-height: 1.7;
     color: var(--c-gray);
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
     padding-block-end: 50vh;
 }
+
 
 h1,
 h2,
 h3 {
     line-height: 1.1;
     color: var(--c-blue);
-}
-
-h1,
-h2,
-h3,
-p {
-    margin: 0;
 }
 
 a {
@@ -59,35 +45,6 @@ a {
 
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
-}
-
-.wrapper {
-    width: min(u.rem(1110), calc(100% - u.rem(32)));
-    margin-inline: auto;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    list-style: none;
-}
-
-.grid {
-    display: grid;
-    gap: u.rem(64);
-
-    @media (width >=u.em(1110)) {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: u.rem(300) auto auto;
-        gap: u.rem(30)
-    }
-}
-
-.noscroll {
-    overflow-y: hidden;
 }

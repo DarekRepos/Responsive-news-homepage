@@ -1,8 +1,8 @@
 {
   "name": "news-homepage",
   "private": true,
-  "version": "0.0.0",
-  "homepage": "https://portfolio.darekduda.pl/Responsive-news-homepage/",
+  "version": "0.0.1",
+  "homepage": "https://darekrepos.github.io/Responsive-news-homepage/",
   "type": "module",
   "scripts": {
     "dev": "vite",

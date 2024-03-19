@@ -1,11 +1,12 @@
 @use '../utils' as u;
+@use '../mixin' as r;
 
 
 .blog {
     display: grid;
     gap: u.rem(30);
 
-    @media (width >= u.em(1110)) {
+    @include r.media-up('xl')  {
     grid-template-columns: subgrid;
     grid-column: 1/-1;
     padding-block-start: u.rem(40);

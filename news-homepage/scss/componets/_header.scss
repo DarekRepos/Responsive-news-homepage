@@ -7,6 +7,7 @@
     justify-content: space-between;
     padding-block: u.rem(30);
     background-color: var(--c-white);
+    z-index: 100;
     
     @include r.media-up('xl') {
       padding-block: u.rem(90) u.rem(55);

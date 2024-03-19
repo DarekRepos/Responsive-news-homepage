@@ -26,7 +26,6 @@ main {
     height: auto;
     width: min(u.rem(1110), calc(100% - u.rem(32)));
     margin-inline: auto;
-    z-index: 100;
 }
 
 .grid {

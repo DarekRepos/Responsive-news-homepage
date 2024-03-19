@@ -1,19 +1,21 @@
 @use '../utils' as u;
+@use '../mixin' as r;
 
 
 .header {
     display: flex;
     justify-content: space-between;
     padding-block: u.rem(30);
-  
-    @media (width >= u.em(1110)) {
+    background-color: var(--c-white);
+    
+    @include r.media-up('xl') {
       padding-block: u.rem(90) u.rem(55);
     }
   
     &__logo {
       width: u.rem(45);
   
-      @media (width >= u.em(1110)) {
+      @include r.media-up('xl') {
         width: u.rem(64);
       }
     }
@@ -22,7 +24,7 @@
       display: flex;
       gap: u.rem(40);
   
-      @media (width < u.em(1110)) {
+     @include r.media-down('xl') {
         flex-direction: column;
         gap: u.rem(24);
       }
@@ -33,7 +35,7 @@
       font-size: u.rem(18);
       line-height: 1.3;
   
-      @media (width >= u.em(1110)) {
+      @include r.media-up('xl') {
         font-size: var(--f-body);
         color: var(--c-gray);
       }

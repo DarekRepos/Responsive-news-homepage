@@ -2,50 +2,46 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="shortcut icon" type="image/x-icon" href="favicon-32x32.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name='language' content='EN'>
+  <meta name="keywords" content="news homepage frontend practice">
+  <meta name="description" content="This is website for the frontend practice">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" sizes="any" type="image/svg+xml"
+    href="data:image/svg+xml;utf8,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23f5e400' d='m6 21 2-7-6-5h7l3-7 3 7h7l-6 5 2 7-6-4z'/%3E%3C/svg%3E%0A">
+  <!-- Fallback favicon in case a browser does not support the SVG version -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel=”mask-icon” href=”mask-con.svg” color="#000000">
+  
+  <link rel="preload" fetchpriority="high" as="image" href="/img/news-1.jpg" type="image/jpg">
+  <link rel="preload" fetchpriority="high" as="image" href="/img/news-2.jpg" type="image/jpg">
+  <link rel="preload" fetchpriority="high" as="image" href="/img/news-3.jpg" type="image/jpg">
+
   <title>News</title>
+
+  <!-- social media -->
+  <meta property="og:title" content="News homepage">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Website chellange from fronendmentor.com">
+  <meta property="og:image" content="/img/feature-desktop.jpg">
+  <meta property="og:url" content="darekrepos.github.io/Responsive-news-homepage">
+  <meta name="twitter:card" content="/img/feature-desktop.jpg">
+
 </head>
 
 <body>
   <header class="header wrapper">
     <a href="/">
-      <img
-        class="header__logo"
-        src="/img/logo.svg"
-        alt="Homepage"
-        width="64"
-        height="40"
-      />
+      <img class="header__logo" src="/img/logo.svg" alt="Homepage" width="64" height="40" />
     </a>
     <nav class="nav" aria-label="Site">
-      <button
-        id="btnOpen"
-        class="nav__open"
-        aria-labelledby="nav-label"
-        aria-expanded="false"
-      >
+      <button id="btnOpen" class="nav__open" aria-labelledby="nav-label" aria-expanded="false">
         <span id="nav-label" hidden>Navigation</span>
-        <svg
-          width="40"
-          height="17"
-          viewBox="0 0 40 17"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          aria-hidden="true"
-        >
+        <svg width="40" height="17" viewBox="0 0 40 17" fill="none" xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true">
           <rect id="Rectangle" y="7" width="40" height="3" fill="#00001A" />
-          <rect
-            id="Rectangle_2"
-            y="14"
-            width="40"
-            height="3"
-            fill="#00001A"
-          />
+          <rect id="Rectangle_2" y="14" width="40" height="3" fill="#00001A" />
           <rect id="Rectangle_3" width="40" height="3" fill="#00001A" />
         </svg>
       </button>
@@ -54,32 +50,12 @@
 
       <div class="nav__content" role="dialog" aria-labelledby="nav-label">
         <button id="btnClose" class="nav__close" aria-label="Close">
-          <svg
-            width="32"
-            height="31"
-            viewBox="0 0 32 31"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <rect
-              id="Rectangle"
-              x="2.91846"
-              y="0.297211"
-              width="40"
-              height="3"
-              transform="rotate(45 2.91846 0.297211)"
-              fill="#00001A"
-            />
-            <rect
-              id="Rectangle_2"
-              x="0.797363"
-              y="28.5815"
-              width="40"
-              height="3"
-              transform="rotate(-45 0.797363 28.5815)"
-              fill="#00001A"
-            />
+          <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true">
+            <rect id="Rectangle" x="2.91846" y="0.297211" width="40" height="3" transform="rotate(45 2.91846 0.297211)"
+              fill="#00001A" />
+            <rect id="Rectangle_2" x="0.797363" y="28.5815" width="40" height="3"
+              transform="rotate(-45 0.797363 28.5815)" fill="#00001A" />
           </svg>
         </button>
         <ul class="header__links">
@@ -102,14 +78,15 @@
       </div>
     </nav>
   </header>
+
   <main>
     <article class="wrapper grid">
       <section class="feature">
         <picture class="feature__picture">
-          <source media="(min-width: 43.75em)" srcset="/img/feature-desktop.jpg 1x,
-          /img/feature-desktop-2x.jpg 2x" width="730" height="300">
-          <img class="feature__image" src="/img/feature-mobile.jpg" alt="colorful blocks" widht="343" height="300"
-            srcset="/img/feature-mobile-2x.jpg 2x">
+          <source media="(min-width: 43.75em)" width="730" height="300"
+            srcset="/img/feature-desktop.jpg 1x, /img/feature-desktop-2x.jpg 2x">
+          <img fetchpriority="high" src="/img/feature-mobile.jpg" alt="colorful blocks" width="343" height="300"
+            srcset="/img/feature-mobile.jpg 1x, /img/feature-mobile-2x.jpg 2x" as="image"/>
         </picture>
 
         <h1 class="feature__headline">The Bright Future of Web 3.0?</h1>
@@ -147,19 +124,21 @@
       </section>
       <section class="blog">
         <article class="blog__item">
-          <img src="/img/news-1.jpg" alt="retro computer, keyboard, cassete tapes on desk" class="blog__image">
+          <img width="100" height="127" src="/img/news-1.jpg" alt="retro computer, keyboard, cassete tapes on desk"
+            class="blog__image">
           <div class="blog__number">01</div>
           <h3 class="blog__headline"><a href="">Reviving Retro PCs</a></h3>
           <p class="blog__description">What happens when olds PCs are given modern upgrades?</p>
         </article>
         <article class="blog__item">
-          <img src="/img/news-2.jpg" alt="keyboard with red backlighting" class="blog__image">
+          <img width="100" height="127" src="/img/news-2.jpg" alt="keyboard with red backlighting" class="blog__image">
           <div class="blog__number">02</div>
           <h3 class="blog__headline">Top 10 Laptops of 2022</h3>
           <p class="blog__description">Our best picks for various needs and budgets.</p>
         </article>
         <article class="blog__item">
-          <img src="/img/news-3.jpg" alt="game controller in the air above a hand" class="blog__image">
+          <img width="100" height="127" src="/img/news-3.jpg" alt="game controller in the air above a hand"
+            class="blog__image">
           <div class="blog__number">03</div>
           <h3 class="blog__headline">The Growth of gaming</h3>
           <p class="blog__description">How the pandemic has sparked fresh opportunities.</p>
@@ -168,7 +147,7 @@
     </article>
   </main>
 
-  <script type="module" src="/main.js"></script>
+  <script async type="module" src="/main.js"></script>
 </body>
 
 </html>

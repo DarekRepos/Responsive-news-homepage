@@ -1,7 +1,5 @@
-import { defineConfig } from 'vite';
+// vite.config.js
 
-export default defineConfig({
-  build: {
-    base: '/Responsive-news-homepage/', // Set base URL to the project root directory
-  },
-});
+export default {
+  base: './', // Set the base path to './' instead of '/'
+}

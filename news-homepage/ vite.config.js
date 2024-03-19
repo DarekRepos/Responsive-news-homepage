@@ -1,5 +1,6 @@
 // vite.config.js
+import { defineConfig } from 'vite'
 
-export default {
-  base: '/Responsive-news-homepage/',
-}
+export default defineConfig({
+  base: '',
+})

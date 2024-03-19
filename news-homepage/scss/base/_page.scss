@@ -1,0 +1,45 @@
+@use '../utils' as u;
+@use '../mixin' as r;
+
+// Set box model to border-box.
+// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+main {
+    isolation: isolate;
+    margin-left: -1px;
+}
+
+
+.wrapper {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: auto;
+    width: min(u.rem(1110), calc(100% - u.rem(32)));
+    margin-inline: auto;
+    z-index: 100;
+}
+
+.grid {
+    display: grid;
+    gap: u.rem(64);
+
+    @include r.media-up('xl') {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: u.rem(300) auto auto;
+        gap: u.rem(30)
+    }
+}
+
+.noscroll {
+    overflow-y: hidden;
+}

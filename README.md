@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/DarekRepos/Responsive-news-homepage)
-- Live Site URL: [Add live site URL here](https://darekrepos.github.io/Responsive-news-homepage/)
+- Solution URL: [Responsive-news-homepage](https://github.com/DarekRepos/Responsive-news-homepage)
+- Live Site URL: [live](https://darekrepos.github.io/Responsive-news-homepage/)
 
 ## My process
 

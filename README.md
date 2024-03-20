@@ -27,14 +27,14 @@ Users should be able to:
 
 ### Screenshots
 
-![](./docs/screenshot.jpg)
+![](./docs/screenshot.png)
 
-![](./docs/screenshot-mobile.jpg)
+![](./docs/screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/DarekRepos/Responsive-news-homepage)
-- Live Site URL: [Add live site URL here](https://darekrepos.github.io/Responsive-news-homepage/)
+- Solution URL: [Responsive-news-homepage](https://github.com/DarekRepos/Responsive-news-homepage)
+- Live Site URL: [live](https://darekrepos.github.io/Responsive-news-homepage/)
 
 ## My process
 
@@ -72,7 +72,7 @@ I'm proud to have achieved flexible and responsive layouts. Deploying the page t
 
 - MDN Web Docs - this help me mostly with html and javascript part like optimizing javascript and images. 
 
-- Sass, Vite Documentation: 
+- Sass, Vite Documentation - it help me with issues like mixin and deploying
 
 - Lighthouse and Performance Insights Tool in  Chrome - i use this tool to check performance and how my website behave on different screens (mobile, desktop, tablet)
 
@@ -81,7 +81,10 @@ I'm proud to have achieved flexible and responsive layouts. Deploying the page t
 - [Can I Use](https://caniuse.com) - this is excellent website that help me check if some css like text-rendering support all browsers
 
 - [Eyedropper](https://firefox-source-docs.mozilla.org/devtools-user/eyedropper/index.html) - eyedropper tool from firefox to grab css color
+
 - [Figma](https://www.figma.com/) - Paste your design image to check the size of containers, width, etc.
+
+- youtube canals @TheCoderCoder and @KevinPowell - it helps me find the easiest way to create this solution
 
 
 ## Author
@@ -92,4 +95,4 @@ I'm proud to have achieved flexible and responsive layouts. Deploying the page t
 
 ## Acknowledgments
 
-A big thank you to anyone who provides feedback. It definitely helps me find new ways to code and discover easier solutions!
+A big thank you to anyone who provides feedback and the youtube canal @TheCoderCoder.  It definitely helps me find new ways to code and discover easier solutions!

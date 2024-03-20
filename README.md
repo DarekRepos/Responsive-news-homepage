@@ -72,7 +72,7 @@ I'm proud to have achieved flexible and responsive layouts. Deploying the page t
 
 - MDN Web Docs - this help me mostly with html and javascript part like optimizing javascript and images. 
 
-- Sass, Vite Documentation: 
+- Sass, Vite Documentation - it help me with issues like mixin and deploying
 
 - Lighthouse and Performance Insights Tool in  Chrome - i use this tool to check performance and how my website behave on different screens (mobile, desktop, tablet)
 
@@ -92,4 +92,4 @@ I'm proud to have achieved flexible and responsive layouts. Deploying the page t
 
 ## Acknowledgments
 
-A big thank you to anyone who provides feedback. It definitely helps me find new ways to code and discover easier solutions!
+A big thank you to anyone who provides feedback and the youtube canal thecodercoder.  It definitely helps me find new ways to code and discover easier solutions!

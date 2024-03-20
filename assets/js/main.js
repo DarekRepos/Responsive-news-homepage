@@ -1,4 +1,4 @@
-import './scss/style.scss'
+import '../scss/style.scss'
 
 const body = document.querySelector('body');
 const main = document.querySelector('main');

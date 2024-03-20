@@ -81,7 +81,10 @@ I'm proud to have achieved flexible and responsive layouts. Deploying the page t
 - [Can I Use](https://caniuse.com) - this is excellent website that help me check if some css like text-rendering support all browsers
 
 - [Eyedropper](https://firefox-source-docs.mozilla.org/devtools-user/eyedropper/index.html) - eyedropper tool from firefox to grab css color
+
 - [Figma](https://www.figma.com/) - Paste your design image to check the size of containers, width, etc.
+
+- youtube canals @TheCoderCoder and @KevinPowell - it helps me find the easiest way to create this solution
 
 
 ## Author

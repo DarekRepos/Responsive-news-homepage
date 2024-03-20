@@ -95,4 +95,4 @@ I'm proud to have achieved flexible and responsive layouts. Deploying the page t
 
 ## Acknowledgments
 
-A big thank you to anyone who provides feedback and the youtube canal thecodercoder.  It definitely helps me find new ways to code and discover easier solutions!
+A big thank you to anyone who provides feedback and the youtube canal @TheCoderCoder.  It definitely helps me find new ways to code and discover easier solutions!

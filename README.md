@@ -29,12 +29,14 @@ Users should be able to:
 
 desktop view
 
-[<img src="./docs/screenshot.png" width="700" height="400" style="display: block; margin-left: auto; margin-right: auto;>]()
-
+<p style="align: center;">
+[<img src="./docs/screenshot.png" width="700" height="400">]()
+</p>
 
 mobile view
-
-[<img src="./docs/screenshot-mobile.png" width="300" height="500" style="display: block; margin-left: auto; margin-right: auto;">]()
+<p style="align: center;">
+[<img src="./docs/screenshot-mobile.png" width="300" height="500">]()
+</p>
 
 ### Links
 

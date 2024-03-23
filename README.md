@@ -27,9 +27,13 @@ Users should be able to:
 
 ### Screenshots
 
-![](./docs/screenshot.png)
+desktop view
 
-![](./docs/screenshot-mobile.png)
+[<img src="./docs/screenshot.png" width="700" height="400">]()
+
+
+mobile view
+[<img src="./docs/screenshot-mobile.png width="500" height="300">]()
 
 ### Links
 

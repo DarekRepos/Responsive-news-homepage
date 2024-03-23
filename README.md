@@ -33,6 +33,7 @@ desktop view
 
 
 mobile view
+
 [<img src="./docs/screenshot-mobile.png" width="300" height="500">]()
 
 ### Links

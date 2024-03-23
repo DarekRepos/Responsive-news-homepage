@@ -33,7 +33,7 @@ desktop view
 
 
 mobile view
-[<img src="./docs/screenshot-mobile.png width="500" height="300">]()
+[<img src="./docs/screenshot-mobile.png" width="500" height="300">]()
 
 ### Links
 

@@ -30,12 +30,12 @@ Users should be able to:
 desktop view
 
 <p style="align: center;">
-[<img src="./docs/screenshot.png" width="700" height="400">]()
+<img src="./docs/screenshot.png" width="700" height="400">
 </p>
 
 mobile view
 <p style="align: center;">
-[<img src="./docs/screenshot-mobile.png" width="300" height="500">]()
+<img src="./docs/screenshot-mobile.png" width="300" height="500">
 </p>
 
 ### Links

@@ -37,7 +37,7 @@ mobile view
 
 ### Links
 
-- Solution URL: [Responsive-news-homepage](https://github.com/DarekRepos/Responsive-news-homepage)
+- Solution URL: [Responsive-news-homepage](https://www.frontendmentor.io/solutions/responsive-news-homepage-CXqTaKrzUZ)
 - Live Site URL: [live](https://darekrepos.github.io/Responsive-news-homepage/)
 
 ## My process

@@ -27,9 +27,11 @@ Users should be able to:
 
 ### Screenshots
 
-![](./docs/screenshot-desktop.png)
+<img alt="desktop view screenshot" src="./docs/screenshot.png" width="700" height="400">
 
-![](./docs/screenshot-mobile.png)
+mobile view
+
+<img alt="mobile view screenshot" src="./docs/screenshot-mobile.png" width="300" height="500">
 
 ### Links
 
@@ -65,7 +67,7 @@ Overall, this project not only allowed me to apply a diverse range of web develo
 
 ### Continued development
 
-I'm proud to have achieved flexible and responsive layouts. Deploying the page to GitHub Pages presented the biggest challenge, but I learned a lot from troubleshooting the issues. Building the responsive menu was another hurdle, as it involved combining various HTML, CSS, and JavaScript elements. Moving forward, I'm eager to focus on accessibility, enhance my JavaScript skills, and explore Sass for more efficient styling.
+I'm proud to have achieved flexible and responsive layouts. Deploying the page to GitHub Pages presented the biggest challenge, but I learned a lot from troubleshooting the issues. Building the responsive menu was another hurdle, as it involved combining various HTML, CSS, and JavaScript elements. Moving forward, I'm eager to focus on accessibility, keep learning css flexbox and grid, enhance my JavaScript skills, and explore Sass for more efficient styling.
 
 
 ### Useful resources

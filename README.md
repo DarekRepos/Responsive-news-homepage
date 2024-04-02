@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshots
 
-![](./docs/screenshot.png)
+![](./docs/screenshot-desktop.png)
 
 ![](./docs/screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [Responsive-news-homepage](https://github.com/DarekRepos/Responsive-news-homepage)
+- Solution URL: [Responsive-news-homepage](https://www.frontendmentor.io/solutions/responsive-news-homepage-CXqTaKrzUZ)
 - Live Site URL: [live](https://darekrepos.github.io/Responsive-news-homepage/)
 
 ## My process

@@ -27,8 +27,6 @@ Users should be able to:
 
 ### Screenshots
 
-desktop view
-
 <img alt="desktop view screenshot" src="./docs/screenshot.png" width="700" height="400">
 
 mobile view

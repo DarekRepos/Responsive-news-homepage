@@ -34,13 +34,13 @@
         background-color: var(--c-white);
         padding: u.rem(30);
         translate: 100vw 0;
-        transition: translate 500ms ease-in-out;
+        // transition: translate 500ms ease-in-out;
       }
   
       @media (prefers-reduced-motion) {
         translate: 0;
         opacity: 0;
-        transition: opacity 500ms ease-in-out;
+        // transition: opacity 500ms ease-in-out;
       }
     }
   

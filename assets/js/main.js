@@ -11,7 +11,7 @@ const navOverlay = document.querySelector('.nav__overlay');
 
 function openMobileMenu() {
     console.log('open menu');
-
+    navContent.style.transition ="all 0.5s ease-out"
     btnOpen.setAttribute('aria-expanded', 'true');
     body.classList.add('noscroll');
     navContent.removeAttribute('inert');
@@ -34,6 +34,7 @@ function setupNav(e) {
         // ismobile
         console.log('is mobile');
         navContent.setAttribute('inert', '');
+        navContent.style.transition = "none";
         setTimeout(() => {
             navContent.style.display = 'block';
             navOverlay.style.display = 'block';
